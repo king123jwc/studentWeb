@@ -1,0 +1,179 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/js/jquery.datetimepicker.css"/>
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__CONTROLLER__/changeData"> 教师平台</a><span>|</span><a href="__SELF__" class="current"> 活动处理</a> </div>
+        <h1>活动  处理</h1>
+    </div>    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span2 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: left;
+        }
+    </style>
+    <!--个人资料-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 400px;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped" style="border: 0">
+                    <thead>
+                        <th colspan="2">
+                            <span class="icon"> <i class="icon-pencil"></i> </span>
+                            <span>活动  处理</span>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <form class="form-horizontal" role="form" action="__SELF__" method="post" ENCTYPE="multipart/form-data">
+                        <tr>
+                            <td style="width: 15%;">活动举办单位:</td>
+                            <input type="hidden" name="activeid" value="{$data[0]['id']}"></input>
+                            <td><input class="form-control col-md-9" type="hidden" name="unitid" value="{$data[0]['unitid']}"></input><span3>{$data[0]['unitname']}</span3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动名称:</td>
+                            <td><span3>{$data[0]['activename']}</span3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动简介:</td>
+                            <td><span3>{$data[0]['activeinfo']}</span3></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动内容:</td>
+                            <td><textarea class="form-control col-md-9" name="activecontact" rows="6" id="s3" disabled>{$data[0]['activecontact']}</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动负责人名称:</td>
+                            <td><span3>{$data[0]['people']}</span3>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td style="width: 15%;">活动照片:</td>
+                            <td><a href="__PUBLIC__/{$data[0]['pic']}" target="_blank"><img src="__PUBLIC__/{$data[0]['thumb']}"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动申请时间:</td>
+                            <td>
+                                <span3>{$data[0]['createtime']}</span3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动类型:</td>
+                            <td>
+                                <span3>{$data[0]['classifyname']}</span3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">
+                                活动开始时间:&nbsp;&nbsp;
+                            </td><td>
+                            <span3>{$data[0]['holdtime']}</span3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">申请场地:</td>
+                            <td>
+                                <span3>{$data[0]['campusname']}</span3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动策划:</td>
+                            <td><a href="__PUBLIC__/{$data[0]['planway']}"><span3>{$data[0]['planname']}</span3></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">社团级别:</td>
+                            <td><span3><?php if($data[0]['level']==1){
+                                    echo "学生社团";
+                                }elseif($data[0]['level']==2){
+                                    echo "学校组织";
+                                }?></span3>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td style="width: 15%;"><span3>教师评论:</span3></td>
+                            <td>
+                                <textarea class="form-control col-md-9"  name="comment" rows="6" placeholder="教师评论"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;"><span3>教师申请场地回复:</span3></td>
+                            <td>
+                                <input type="text" id="s1" class="form-control col-md-9" name="backfield"
+                                placeholder="场地回复"></input>
+                                <span2 id='sp1'></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                        <input type="hidden" id="isapproval" name="isapproval" value=""></input>
+                            <td colspan="2"><button type="submit" class="btn btn-warning"  id="submit1
+                           " onclick="return c1()">同意  申请</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" onclick="return c2()" class="btn btn-info">暂不处理</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" onclick="return c3()" class="btn btn-success">不同意申请</button>
+                            <br>
+                            <br>
+                           </td>
+                        </tr>                   
+                    </form>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</div>
+<!--end-main-container-part-->
+<script src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+<script src="__PUBLIC__/ueditor/ueditor.all.min.js"></script>
+<script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script>
+<script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script>
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script src="__PUBLIC__/js/jquery.datetimepicker.js"></script>
+<script>
+$('#datetimepicker').datetimepicker();
+$('#datetimepicker').datetimepicker({value:'2016-03-01 00:00',step:10});
+</script>
+<script type="text/javascript" src="__PUBLIC__/js/laydate.dev.js"></script>
+<script>
+    function c1(){
+        $('#isapproval').val('1');
+        if ($('#s1').val()=='') {
+            $('#sp1').html('场地回复不能为空');
+            return false;
+        }
+        return true;
+    }
+    function c2(){
+        $('#isapproval').val('0');
+        if ($('#s1').val()=='') {
+            $('#sp1').html('场地回复不能为空');
+            return false;
+        }
+        return true;
+    }
+    function c3(){
+        $('#isapproval').val('-1');
+        if ($('#s1').val()=='') {
+            $('#sp1').html('场地回复不能为空');
+            return false;
+        }
+        return true;
+    }
+
+</script>
+
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>

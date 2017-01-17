@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="__PUBLIC__/css/AdminMain/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/AdminMain/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/AdminMain/matrix-style.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/AdminMain/matrix-media.css">
+    <link href="__PUBLIC__/css/AdminMain/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+
+    <!--sidebar-menu-->
+    <div id="sidebar" style="overflow-y: auto; overflow-x: hidden; height: 90%;">
+        <ul>
+            <li class="submenu open">
+            <a class="menu_a" href="/#"><i class="icon icon-home"></i> <span>后台首页</span></a>
+            <ul style="display: block;">
+                    <li><a class="menu_a" href="__MODULE__/Main/index.html"><i class="icon icon-caret-right"></i>后台首页</a></li>
+                </ul>
+            </li>
+            <volist name="menuList" id="vo" >
+                <li class="submenu" onclick="dj(this)">
+                    <a href="/#" >
+                        <i class="icon-th-list"></i>
+                        <span class="now" value="<?= $key;?>">{$key}</span>
+                    </a>
+                    <ul>
+                        <?php foreach($vo as $k => $v):?>
+                        <li><a class="menu_a" id="<?php echo $v?>" href="<?php echo $v;?>"><i class="icon icon-caret-right"></i><?php echo $k;?><?php if($k=='未处理留言'){
+                        echo "&nbsp;&nbsp;&nbsp;<span class='label label-important'>$newmessage</span>";
+                            }?></a></li>
+                        <?php endforeach;?>
+
+                    </ul>
+                </li>
+            </volist>
+
+        </ul>
+    </div>
+    <!--sidebar-menu-->
+
+
+    <!--end-main-container-part-->
+
+    <script src="__PUBLIC__/js/Mainjs/excanvas.min.js"></script>
+    <script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script>
+    <script src="__PUBLIC__/js/Mainjs/jquery.ui.custom.js"></script>
+    <script src="__PUBLIC__/js/Mainjs/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/Mainjs/jquery.nicescroll.min.js"></script>
+    <script src="__PUBLIC__/js/Mainjs/matrix.js"></script>
+
+
+    <script type="text/javascript">
+
+    //初始化相关元素高度
+    function init(){
+        $("body").height($(window).height()-80);
+        $("#iframe-main").height($(window).height()-90);
+        $("#sidebar").height($(window).height()-50);
+    }
+
+    $(function(){
+        init();
+        $(window).resize(function(){
+            init();
+        });
+    });
+
+    // This function is called from the pop-up menus to transfer to
+    // a different page. Ignore if the value returned is a null string:
+    function goPage (newURL) {
+        // if url is empty, skip the menu dividers and reset the menu selection to default
+        if (newURL != "") {
+            // if url is "-", it is this page -- reset the menu:
+            if (newURL == "-" ) {
+                resetMenu();            
+            } 
+            // else, send page to designated URL            
+            else {  
+                document.location.href = newURL;
+            }
+        }
+    }
+
+    // resets the menu selection upon entry to this page:
+    function resetMenu() {
+        document.gomenu.selector.selectedIndex = 2;
+    }
+
+    // uniform使用示例：
+    // $.uniform.update($(this).attr("checked", true));
+    </script>
+
+</body>
+</html>

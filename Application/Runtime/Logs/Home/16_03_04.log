@@ -1,0 +1,156 @@
+[ 2016-03-04T10:09:43+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T10:11:40+08:00 ] 127.0.0.1 /index.php/Home/Index/single-page.html
+ERR: 非法操作:single-page
+
+[ 2016-03-04T10:11:43+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T10:26:16+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T10:30:17+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T10:33:10+08:00 ] 127.0.0.1 /index.php/Home/Index/single-page.html
+ERR: 非法操作:single-page
+
+[ 2016-03-04T10:33:14+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T10:36:31+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T14:27:36+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T14:28:12+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T16:57:33+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T16:58:18+08:00 ] 127.0.0.1 /index.php/Home/Index/single-page.html
+ERR: 非法操作:single-page
+
+[ 2016-03-04T16:58:35+08:00 ] 127.0.0.1 /index.php/Home/Index/single-page.html
+ERR: 非法操作:single-page
+
+[ 2016-03-04T16:58:40+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:02:13+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:33:09+08:00 ] 127.0.0.1 /index.php/Home/Index/admin/admin
+ERR: 非法操作:admin
+
+[ 2016-03-04T17:33:17+08:00 ] 127.0.0.1 /index.php/Home/Index/admin/admin
+ERR: 非法操作:admin
+
+[ 2016-03-04T17:33:25+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:33:37+08:00 ] 127.0.0.1 /index.php/Home/admin/admin
+ERR: 无法加载控制器:Admin
+
+[ 2016-03-04T17:33:45+08:00 ] 127.0.0.1 /index.php/Home/admin/admin
+ERR: 无法加载控制器:Admin
+
+[ 2016-03-04T17:33:53+08:00 ] 127.0.0.1 /index.php/Home/index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:34:59+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:35:18+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:35:27+08:00 ] 127.0.0.1 /index.php/Home/Index/Admin/Admin/admin
+ERR: 非法操作:Admin
+
+[ 2016-03-04T17:36:39+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:36:49+08:00 ] 127.0.0.1 /index.php/Home/Index/__APP__/Admin/Admin/admin
+ERR: 非法操作:__APP__
+
+[ 2016-03-04T17:37:03+08:00 ] 127.0.0.1 /index.php/Home/Index/__APP__/Admin/Admin/admin
+ERR: 非法操作:__APP__
+
+[ 2016-03-04T17:37:11+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:37:30+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:38:42+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T17:48:52+08:00 ] 127.0.0.1 /index.php/Home/Index/baoming?id=1
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+
+[ 2016-03-04T17:49:39+08:00 ] 127.0.0.1 /index.php/Home/Index/baoming?id=1
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-03-04T17:49:42+08:00 ] 127.0.0.1 /index.php/Home/Index/baoming?id=1
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-03-04T17:50:42+08:00 ] 127.0.0.1 /index.php/Home/Index/baoming?id=1
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-03-04T17:56:27+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T18:00:34+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:05:00+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:06:50+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:10:06+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:15:27+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:15:31+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:16:27+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:17:03+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:24:48+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'left join sw_teacherback as t on a.id=t.activeid where status=0 and isapproval=1' at line 1
+
+[ 2016-03-04T20:26:26+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:26:42+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:28:03+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:44:33+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T20:44:53+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T21:34:09+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+
+[ 2016-03-04T21:38:40+08:00 ] 127.0.0.1 /index.php/Home/Index/skins/hand.cur
+ERR: 非法操作:skins
+

@@ -1,0 +1,12 @@
+[ 2016-03-04T15:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/teacher
+ERR: 非法操作:teacher
+
+[ 2016-03-04T15:56:23+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/teacher
+ERR: 非法操作:teacher
+
+[ 2016-03-04T17:34:01+08:00 ] 127.0.0.1 /index.php/admin/admin
+ERR: 非法操作:index
+
+[ 2016-03-04T17:37:18+08:00 ] 127.0.0.1 /index.php/Admin/admin
+ERR: 非法操作:index
+

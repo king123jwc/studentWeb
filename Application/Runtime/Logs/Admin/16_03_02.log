@@ -1,0 +1,87 @@
+[ 2016-03-02T00:00:38+08:00 ] 127.0.0.1 /index.php/Admin/Activity/activityStatus
+ERR: 模板不存在:../Application/Admin/View/Activity/activityStatus.html
+
+[ 2016-03-02T00:37:27+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/usedActivity
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isapproval' in 'where clause'
+
+[ 2016-03-02T00:37:35+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/usedActivity
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isapproval' in 'where clause'
+
+[ 2016-03-02T00:37:46+08:00 ] 127.0.0.1 /index.php/Admin/Student/usedActivity
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isapproval' in 'where clause'
+
+[ 2016-03-02T08:55:39+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/tunit
+ERR: 非法操作:tunit
+
+[ 2016-03-02T08:55:44+08:00 ] 127.0.0.1 /index.php/Admin/Activity/activityStatus
+ERR: 模板不存在:../Application/Admin/View/Activity/activityStatus.html
+
+[ 2016-03-02T08:57:56+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/tunit
+ERR: 非法操作:tunit
+
+[ 2016-03-02T08:58:01+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/active
+ERR: 非法操作:active
+
+[ 2016-03-02T08:58:06+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/pifu
+ERR: 非法操作:pifu
+
+[ 2016-03-02T08:58:34+08:00 ] 127.0.0.1 /index.php/Admin/Activity/activityStatus
+ERR: 模板不存在:../Application/Admin/View/Activity/activityStatus.html
+
+[ 2016-03-02T09:50:02+08:00 ] 127.0.0.1 /index.php/Admin/Activity/activityStatus
+ERR: 模板不存在:../Application/Admin/View/Activity/activityStatus.html
+
+[ 2016-03-02T10:34:19+08:00 ] 127.0.0.1 /index.php/Admin/Activityedit?id=4
+ERR: 无法加载控制器:Activityedit
+
+[ 2016-03-02T10:36:31+08:00 ] 127.0.0.1 /index.php/Admin/Activity/edit?id=4
+ERR: 模板不存在:../Application/Admin/View/Activity/edit.html
+
+[ 2016-03-02T10:39:37+08:00 ] 127.0.0.1 /index.php/Admin/Activity/show?id=6
+ERR: 非法操作:show
+
+[ 2016-03-02T10:41:54+08:00 ] 127.0.0.1 /index.php/Admin/Activity/edit?id=4
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.status=1 and a.isapproval=1 AND u.level=1 and u.supervisorid=1 order by a.crea' at line 1
+
+[ 2016-03-02T11:40:34+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/tunit
+ERR: 非法操作:tunit
+
+[ 2016-03-02T12:01:14+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/tunit
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.supervisorid=1 AND u.level=2' at line 1
+
+[ 2016-03-02T13:05:32+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/pifu
+ERR: 非法操作:pifu
+
+[ 2016-03-02T13:31:19+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit?id=1
+ERR: 非法操作:edit
+
+[ 2016-03-02T13:37:03+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit?id=7
+ERR: 非法操作:edit
+
+[ 2016-03-02T13:44:42+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/tunit&?page=2
+ERR: 非法操作:tunit&
+
+[ 2016-03-02T14:08:30+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/pifu
+ERR: 非法操作:pifu
+
+[ 2016-03-02T14:37:02+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/pifu
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 limit -5,5' at line 1
+
+[ 2016-03-02T14:44:18+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/unitA?id=%22.$v[
+ERR: 非法操作:unitA
+
+[ 2016-03-02T14:45:07+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/unitA?id=%22.$v[
+ERR: 非法操作:unitA
+
+[ 2016-03-02T14:45:47+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/unitA?id=1
+ERR: 非法操作:unitA
+
+[ 2016-03-02T14:45:56+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/unitA?id=1
+ERR: 非法操作:unitA
+
+[ 2016-03-02T15:41:35+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/unitA?id=1
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'studentweb.sw_activity' doesn't exist
+
+[ 2016-03-02T20:02:04+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+ERR: 无法加载控制器:Login
+

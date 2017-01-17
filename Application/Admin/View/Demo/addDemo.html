@@ -1,0 +1,154 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__CONTROLLER__/demoLst"> &nbsp;成功案例</a><span>|</span><a href="__SELF__" class="current"> 添加案例</a> </div>
+        <h1>添加 案例</h1>
+    </div>
+    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span4 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: left;
+        }
+        .table td textarea{
+            width: 80%;
+            height: 100%;
+        }
+        #checkbox{
+            margin-top: -7px;
+        }
+    </style>
+    <!--新增管理员-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 460px;">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <th colspan="2">
+                    <span class="icon"> <i class="icon-plus"></i> </span>
+                    <span>添加成功案例</span>
+                    <span style="float: right;"><a href="__CONTROLLER__/demoLst">
+                        <span class="icon"> <i class='icon icon-table'></i> </span>
+                        <span>案例列表</span></a>
+                    </span>
+                </th>
+                </thead>
+                <tbody>
+                        <form class="form-horizontal" role="form" enctype="multipart/form-data" action="__CONTROLLER__/addDemo" method="post">
+                        <tr>
+                            <td style="text-align: center;width: 15%;">
+                                <span3>案例名称:&nbsp;&nbsp;</span3>
+                            </td><td>
+                            <input type="text" class="form-control col-md-9" id="exampleInputext1" name="demoname" onchange="return nname()" placeholder="案例名称">
+                                <span4 id="s40"></span4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>案例效果图:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                            </td><td>
+                                <input type="file" name="pic" class="form-control col-md-9" id="exampleInputext2" placeholder="案例效果图" onchange="return newpd()">
+                                <span4 id="s4"></span4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>缩略图尺寸:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                            </td><td>
+                                <select class="form-control" name="thumbsize">
+                                    <option value="0">--最适250--</option>
+                                    <option value="250">250X250</option>
+                                    <option value="350">350X350</option>
+                                    <option value="500">500X500</option>
+                                    <option value="500">650X520</option>
+                                </select>
+                            </td>
+                         </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>案例简介:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                            </td><td>
+                            <textarea type="text" class="form-control col-md-9" name="demoinfo" row="6" id="exampleInputext3" placeholder="案例简介"></textarea>
+                            <span4 id="span4"></span4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>选择案例分类:&nbsp;&nbsp;</span3>
+                            </td>
+                            <td>
+                                <?php foreach($data as $k=>$v):?>
+                                <input id="checkbox" type="radio" class="form-control col-md-9" name="classifyId[]" value="{$v['id']}"/><span3>&nbsp;{$v['classifyname']}&nbsp;&nbsp;|&nbsp;&nbsp;</span3>
+                                <?php endforeach;?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="submit" class="btn btn-warning"  onclick=" return check()" id="submit1
+                           ">添&nbsp;&nbsp;加</button></td>
+                        </tr>
+                        <tr><td></td></tr>
+                        <tr><td></td></tr>
+                        </form>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--end-main-container-part-->
+<script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script>
+<script>
+    function nname(){
+        var nn=$('#exampleInputext1').val();
+        if(nn==''){
+            $('#s40').text('案例名称不能为空');
+            return false;
+        }else{
+            $('#s40').text('');
+            return true;
+        }
+    }
+    function newpd(){
+        var nn=$('#exampleInputext2').val();
+        if(nn==''){
+            $('#s4').text('案例文件不能为空');
+            return false;
+        }else{
+            $('#s4').text('');
+            return true;
+        }
+    }
+    function check(){
+        var i3=$('#exampleInputext3').val();
+        if(i3==''){
+            $('#span4').text('案例简介不能为空');
+            return false;
+        }else{
+            if (!newpd()){
+                return false;
+            }else{
+                if(!nname()){
+                    return false;
+                }else{
+                    return true;
+                }
+            }
+        }
+    }
+</script>
+
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>

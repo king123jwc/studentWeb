@@ -1,0 +1,12 @@
+正确的网站 http://www.itcms.com/Public/Images/buttom_left.gif
+__MODULE__=>http://www.itcms.com/index.php/Admin/Images/left_top_right.gif
+__ROOT__=>http://www.itcms.com/Images/left_top_right.gif
+__APP__=>http://www.itcms.com/index.php/Images/left_top_right.gif
+__ACTION__ =>http://www.itcms.com/index.php/Admin/Main/main/Images/left_top_right.gif
+__SELF__=>http://www.itcms.com/index.php/Admin/Main/main/Images/left_top_right.gif
+__INFO__=>  http://www.itcms.com/index.php/Admin/Main/__INFO__/Images/left_top_right.gif
+__EXT__=>http://www.itcms.com/index.php/Admin/Main/__EXT__/Images/left_top_right.gif
+
+
+__PUBLIC__=>http://www.itcms.com/Public/Images/left_top_right.gif
+

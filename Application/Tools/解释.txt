@@ -1,0 +1,3 @@
+Tools是自定义功能类的文件夹
+Page.class.php 
+在thinkphp中的分页类写的太差,使用建议使用这个进行分页

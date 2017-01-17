@@ -1,0 +1,120 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__CONTROLLER__/newMessage"> &nbsp;联系我们</a><span>|</span><a href="__SELF__" class="current"> 未处理留言</a> </div>
+        <h1>后台 未处理留言</h1>
+        <div id="search">
+            <form class="form-horizontal" role="form" action="__MODULE__/Menu/search" method="get">
+               <input type="text" class="form-control" name="searchname" placeholder="搜索联系人名称">
+            <button type="submit" class="tip-bottom" data-original-title="Search"><i class="icon-search icon-white"></i></button> 
+            </form>
+        </div>
+    </div>
+    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span4 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: center;
+        }
+        .mycolor{
+            background-color: #D9EDF7;
+        }
+         input[type=checkbox]{
+             height: 20px;
+             width: 20px;
+         }
+        input.delids.checkbox{
+            left: 50%;
+        }
+    </style>
+    <!--个人资料-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 460px;">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th style="text-align: left;" colspan="7">
+                        <span class="icon"> <i class='icon-eye-open'></i> </span>
+                        <span>未处理留言</span>
+                        <span style="float: right;"><a href="__CONTROLLER__/newMessage">
+                        <span class="icon"> <i class='icon-align-justify'></i> </span>
+                        <span>已处理留言</span></a>
+                    </span>
+                    </th>
+                </tr>
+                <tr class="mycolor">
+                    <th>全选本页 &nbsp;<input name="selall" class="" type="checkbox" value=""></th>
+                    <th>联系人姓名</th>
+                    <th>联系方式</th>
+                    <th>项目类型</th>
+                    <th>留言时间</th>
+                    <th>是否处理</th>
+                    <th>操&nbsp;&nbsp;&nbsp;&nbsp;作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <form class="form-horizontal" role="form" action="__CONTROLLER__/bdel" method="post">
+                    <?php foreach($data as $k=>$v):?>
+                    <tr>
+                        <td>
+                            <input class="delids checkbox form-control" type="checkbox" name="dbelid[]" value="<?php echo $v['id'];?>">
+                        </td>
+                        <td><span><?php echo $v['contactname'];?></span></td>
+                        <td><span><?php echo $v['contactway'];?></span></td>
+                        <td><span><?php echo $v['subject'];?></span></td>
+                        <td>
+                            <span><?php echo $v['addtime'];?></span></td>
+                        </td>
+                        <td>
+                            <?php if($v['state']==0){
+                                        echo "<span><i class='icon-remove'></i> 未处理</span>";
+                            }else{
+                            echo "<span><i class='icon-ok'></i> 已处理</span>";
+                            };?>
+                        </td>
+                        <td>
+                            <a href="__CONTROLLER__/edit?id=<?php echo $v['id'];?>"><span>处&nbsp;理</span></a>&nbsp;&nbsp;
+                            <a onclick="return confirm('是否确认删除')" href="__CONTROLLER__/del?id=<?php echo $v['id'];?>"><span>删&nbsp;除</span></a>
+                        </td>
+                    </tr>
+                    <?php endforeach;?>
+
+                    <tr>
+                        <td colspan="7">
+                            {$pageStr}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="return confirm('是否确认批量删除')" type="submit" class="btn btn-warning" id="submit1">删除&nbsp;&nbsp;所选</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/jS/jq.js"></script>
+<script type="text/javascript">
+    $("input[name=selall]").click(function(){
+        $('.delids').attr("checked",$("input[name=selall]").attr('checked'));
+    })
+</script>
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>

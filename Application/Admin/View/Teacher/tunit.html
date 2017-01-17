@@ -1,0 +1,101 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__CONTROLLER__/changeData"> &nbsp;教师平台</a><span>|</span><a href="__SELF__" class="current"> 管理社团</a> </div>
+        <h1>管理  社团</h1>
+    </div>
+
+    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span4 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: center;
+        }
+        .mycolor{
+            background-color: #D9EDF7;
+        }
+    </style>
+    <!--个人资料-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 460px;">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th style="text-align: left;" colspan="7">
+                        <span class="icon"> <i class='icon-align-justify'></i> </span>
+                        <span>管理社团</span>
+                    </span>
+                    </th>
+                </tr>
+                <tr class="mycolor">
+                    <th>社团名称</th>
+                    <th>社团负责人学号</th>
+                    <th>社团负责人昵称</th>
+                    <th>负责人照片</th>
+                    <th>社团成立时间</th>
+                    <th>社团属性</th>
+                    <th>操&nbsp;&nbsp;&nbsp;&nbsp;作</th>
+                </tr>
+                </thead>
+                <tbody>
+                     <?php foreach($data as $k=>$v):?>
+                    <tr>
+                        <td>
+                            <span><?php echo $v['unitname'];?></span>
+                        </td>
+                        <td><span><?php echo $v['num'];?></span></td>
+                        <td><span><?php echo $v['username'];?></span></td>
+                        <td><img src="__PUBLIC__/{$v['peoplethumb']}"/></td>
+                        <td>
+                            <span><?php echo $v['holdtime'];?></span></td>
+                        </td>
+                        <td>
+                            <span>
+                                <?php if($v['level']==1){
+                                    echo "学生社团";
+                                }elseif($v['level']==2){
+                                    echo "学校组织";
+                                }?>
+                            </span>
+                        </td>
+                        <td>
+                            <a href="__CONTROLLER__/unitedit?id=<?php echo $v['id'];?>"><span>详&nbsp;情</span></a>&nbsp;&nbsp;
+                            <a onclick="return confirm('是否确认删除')" href="__CONTROLLER__/del?id=<?php echo $v['id'];?>"><span>删&nbsp;除</span></a>
+                        </td>
+                    </tr>
+                    <?php endforeach;?>
+
+                    <tr>
+                        <td colspan="7">
+                            {$pageStr}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/jS/jq.js"></script>
+<script type="text/javascript">
+
+    $("input[name=selall]").click(function(){
+        $('.delids').attr("checked",$("input[name=selall]").attr('checked'));
+    })
+</script>
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>

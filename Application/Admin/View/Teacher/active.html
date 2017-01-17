@@ -1,0 +1,223 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/js/jquery.datetimepicker.css"/>
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__CONTROLLER__/changeData"> &nbsp;教师平台</a><span>|</span><a href="__SELF__" class="current"> 发布活动</a> </div>
+        <h1>发布  活动</h1>
+    </div>
+    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span2 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: left;
+        }
+    </style>
+    <!--个人资料-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 400px;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped" style="border: 0">
+                    <thead>
+                        <th colspan="2">
+                            <span class="icon"> <i class="icon-pencil"></i> </span>
+                            <span>发布  活动</span>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <form class="form-horizontal" role="form" action="__SELF__" method="post" ENCTYPE="multipart/form-data">
+                        <tr>
+                            <td style="width: 15%;">活动举办单位:</td>
+                            <td><input class="form-control col-md-9" type="hidden" name="unitid" value="{$unit['id']}"></input>{$unit['unitname']}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动名称:</td>
+                            <td><input id="s1" class="form-control col-md-9" type="text" name="activename" placeholder="活动名称"></input>
+                            <span2 id="sp1"></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动简介:</td>
+                            <td><input class="form-control col-md-9" type="text" name="activeinfo" id="s2" placeholder="活动简介"></input>
+                            <span2 id='sp2'></span2></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动内容:</td>
+                            <td><textarea class="form-control col-md-9" name="activecontact" rows="6" id="s3" placeholder="活动内容"></textarea><span2 id='sp3'></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动负责人名称:</td>
+                            <td><input class="form-control col-md-9" type="text" id="s4" name="people" placeholder="活动负责人名称"></input>
+                            <span2 id='sp4'></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动照片:</td>
+                            <td><input class="form-control col-md-9" type="file" id="s5" name="pic"></input>
+                            <span2 id='sp5'></span2>
+                            </td>
+                        </tr>  
+                        <tr>
+                            <td style="width: 15%;">缩略图尺寸:</td>
+                            <td>
+                                <select class="form-control" name="thumbsize" style="width: 20%;">
+                                    <option value="50">--默认50X50--</option>
+                                    <option value="100">100X100</option>
+                                    <option value="150">150X150</option>
+                                    <option value="200">200X200</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动类型:</td>
+                            <td>
+                                <select id="s6" class="form-control" name="classifyid" style="width: 20%;">
+                                    <option value="">----请选择----</option>
+                                    <?php foreach($classify as $k=>$v):?>
+                                        <option value="{$v['id']}">{$v['classifyname']}</option>
+                                    <?php endforeach;?>
+                                </select>
+                                <span2 id='sp6'></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">
+                                活动开始时间:&nbsp;&nbsp;
+                            </td><td>
+                            <input name="holdtime" type="text" value="0000-00-00 00:00" id="datetimepicker"/><br><br>
+                                <span2 id="sp7"></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动场地:</td>
+                            <td>
+                                <input class="form-control col-md-9" type="text" id="s9" name="backfield"></input>
+                                <span2 id='sp9'></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">策划名称:</td>
+                            <td><input class="form-control col-md-9" type="text" id="s10" name="planname"></input>
+                            <span2 id='sp10'></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">活动策划:</td>
+                            <td><input class="form-control col-md-9" type="file" id="s11" name="planway"></input>
+                            <span2 id='sp11'></span2>
+                            </td>
+                        </tr> 
+                        <tr>
+                        <input type="hidden" id="status" name="status" value=""></input>
+                        <input type="hidden" id="isapproval" name="isapproval" value=""></input>
+                            <td colspan="2"><button type="submit" class="btn btn-warning"  id="submit1
+                           " onclick="return c1()">即刻  发布</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" onclick="return c2()" class="btn btn-info">不发布,存入草稿箱</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="reset" class="btn btn-success">重  写</button>
+                            <br>
+                            <br>
+                           </td>
+                        </tr>
+                            </form>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</div>
+<!--end-main-container-part-->
+<script src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+<script src="__PUBLIC__/ueditor/ueditor.all.min.js"></script>
+<script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script>
+<script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script>
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script src="__PUBLIC__/js/jquery.datetimepicker.js"></script>
+<script>
+$('#datetimepicker').datetimepicker();
+$('#datetimepicker').datetimepicker({value:'2016-03-01 00:00',step:10});
+</script>
+<script type="text/javascript" src="__PUBLIC__/js/laydate.dev.js"></script>
+<script>
+    function c1(){
+        $('#status').val('0');
+        $('#isapproval').val('1');
+        if ($('#s1').val()=='') {
+            $('#sp1').html('活动名称不能为空');
+            return false;
+        }else if($('#s2').val()==''){
+            $('#sp2').html('活动简介不能为空');
+            return false;
+        }else if($('#s3').val()==''){
+            $('#sp3').html('活动内容不能为空');
+            return false;
+        }else if($('#s4').val()==''){
+            $('#sp4').html('负责人姓名不能为空');
+            return false;
+        }else if($('#s5').val()==''){
+            $('#sp5').html('活动照片不能为空');
+            return false;
+        }else if($('#s6').val()==''){
+            $('#sp6').html('活动类型不能为空');
+            return false;
+        }else if($('#s9').val()==''){
+            $('#sp9').html('活动场地不能为空');
+            return false;
+        }else if($('#s10').val()==''){
+            $('#sp10').html('策划名称不能为空');
+            return false;
+        }else if($('#s11').val()==''){
+            $('#sp11').html('活动策划不能为空');
+            return false;
+        }
+        return true;
+    }
+    function c2(){
+        $('#status').val('-1');
+        $('#isapproval').val('0');
+        if ($('#s1').val()=='') {
+            $('#sp1').html('活动名称不能为空');
+            return false;
+        }else if($('#s2').val()==''){
+            $('#sp2').html('活动简介不能为空');
+            return false;
+        }else if($('#s3').val()==''){
+            $('#sp3').html('活动内容不能为空');
+            return false;
+        }else if($('#s4').val()==''){
+            $('#sp4').html('负责人姓名不能为空');
+            return false;
+        }else if($('#s5').val()==''){
+            $('#sp5').html('活动照片不能为空');
+            return false;
+        }else if($('#s6').val()==''){
+            $('#sp6').html('活动类型不能为空');
+            return false;
+        }else if($('#s9').val()==''){
+            $('#sp9').html('活动场地不能为空');
+            return false;
+        }else if($('#s10').val()==''){
+            $('#sp10').html('策划名称不能为空');
+            return false;
+        }else if($('#s11').val()==''){
+            $('#sp11').html('活动策划不能为空');
+            return false;
+        }
+        return true;
+    }
+
+</script>
+
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__SELF__"> 学生平台</a><span>|</span><a href="__SELF__" class="current"> 修改学生资料</a> </div>
+        <h1>学生 修改个人资料</h1>
+    </div>
+    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span2 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: left;
+        }
+    </style>
+    <!--个人资料-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 400px;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped" style="border: 0">
+                    <thead>
+                        <th>
+                            <span class="icon"> <i class="icon-pencil"></i> </span>
+                            <span>修改学生个人资料</span>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <form class="form-horizontal" role="form" action="__CONTROLLER__/changeData" method="post">
+                        <tr>
+                            <td style="text-align: center;width: 15%;">
+                                <span3>学生学号:&nbsp;&nbsp;</span3>
+                            </td><td>
+                            <input type="text" class="form-control col-md-9" name="num" value="{$data['num']}" placeholder="学生学号" disabled>
+                                <input type="hidden" name="id" value="{$adminId}">
+                                <span2 id="sp1"></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;width: 15%;">
+                                <span3>学生昵称:&nbsp;&nbsp;</span3>
+                            </td><td>
+                            <input type="text" class="form-control col-md-9" name="username" id="cg2" onchange="return c2()" value="{$data['username']}" placeholder="学生昵称">
+                                <span2 id="sp2"></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>新的密码:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                            </td><td>
+                                <input type="password" name="password" class="form-control col-md-9" id="cg3" onchange="return c3()" placeholder="新的密码">&nbsp;&nbsp;
+                                <a onclick="show()"><span class="icon"> <i class='icon-eye-open'></i> </span></a>
+
+                                <span2 id="sp3"></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>请再输一遍密码:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                            </td><td>
+                            <input type="password" class="form-control col-md-9" id="cg4" onchange="return c4()" placeholder="重新输入新的密码">
+                            <span2 id="sp4"></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>学生具体信息:&nbsp;&nbsp;</span3>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control col-md-9" id="cg5" name="info" value="{$data['info']}" placeholder="学生具体信息">
+                                <span2 id="sp5"></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>学生联系方式:&nbsp;&nbsp;</span3>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control col-md-9"  name="contactway" id="cg6" onchange="return c6()" value="{$data['contactway']}" placeholder="联系方式">
+                                <span2 id="sp6"></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="submit" class="btn btn-warning"  onclick=" return sbm()" id="submit1
+                           ">修  改</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="reset" class="btn btn-success">重  置</button>
+                            <br>
+                            <br>
+                           </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </form>
+            </div>
+    </div>
+</div>
+<!--end-main-container-part-->
+<script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script>
+<script>
+    function show(){
+       if ($("input#cg3").attr('type')=='password') {
+            $('input#cg3')[0].type='text';
+       }else{
+            $('input#cg3')[0].type='password';
+       }
+    }
+    function sbm(){
+        var t1=$('#cg1').val();
+        if(t1==''){
+            $('#sp1').text('学号不能为空');
+            return false;
+        }else{
+            $('#sp1').text('');
+
+        }
+        var t3=$('#cg3').val();
+        if(t3==''){
+            $('#sp3').text('密码不能为空');
+            return false;
+        }else{
+            $('#sp3').text('');
+        }
+        var t5=$('#cg5').val();
+        if(t5==''){
+            $('#sp5').text('具体信息不能为空');
+            return false;
+        }else{
+            $('#sp5').text('');
+        }
+        var t6=$('#cg6').val();
+        if(t6==''){
+            $('#sp6').text('联系信息不能为空');
+            return false;
+        }else{
+            $('#sp6').text('');
+        }
+        if(c4() && c6()){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    function c1(){
+    }
+    function c2(){
+    }
+    function c3(){
+        var t=$('#cg3').val();
+        var z= /^[0-9a-zA-Z_]{6,}$/;
+        if(z.test(t)){
+            $('#sp3').text('');
+            return true;
+        }else{
+            $('#sp3').text('密码必须6位以上');
+            return false;
+        }
+    }
+    function c4(){
+        var p1=$('#cg3').val();
+        var p2=$('#cg4').val();
+        if(p1==p2){
+            $('#sp4').text('');
+            return true;
+        }else{
+            $('#sp4').text('两次密码必须一样');
+            return false;
+        }
+    }
+    function c6(){
+        var t=$('#cg6').val();
+        var z= /^1\d{10}$/;
+        if(z.test(t)){
+            $('#sp6').text('');
+            return true;
+        }else{
+            $('#sp6').text('电话号码格式不对');
+            return false;
+        }
+    }
+</script>
+
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[ 2016-01-29T00:18:07+08:00 ] 127.0.0.1 /index.php/Admin/Menu/addAdmin
+ERR: 非法操作:addAdmin
+
+[ 2016-01-29T00:18:11+08:00 ] 127.0.0.1 /index.php/Admin/Menu/addAdmin
+ERR: 非法操作:addAdmin
+
+[ 2016-01-29T00:18:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/addAdmin
+ERR: 非法操作:addAdmin
+
+[ 2016-01-29T21:41:58+08:00 ] 127.0.0.1 /index.php/Admin/Menu/myAdmin
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isread' in 'where clause'
+
+[ 2016-01-29T21:42:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/newAdmin
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isread' in 'where clause'
+
+[ 2016-01-29T22:07:07+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit?id=3
+ERR: 模板不存在:../Application/Admin/View/Menu/edit.html
+
+[ 2016-01-29T22:07:25+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit?id=6
+ERR: 模板不存在:../Application/Admin/View/Menu/edit.html
+
+[ 2016-01-29T22:29:47+08:00 ] 127.0.0.1 /index.php/Admin/Main/index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isread' in 'where clause'
+
+[ 2016-01-29T23:06:47+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit?id=11
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$id' in 'where clause'
+
+[ 2016-01-29T23:07:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit?id=11
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$id' in 'where clause'
+

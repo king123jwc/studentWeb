@@ -1,0 +1,2 @@
+privilege.php  用于存放权限
+config.php  在这个文件下是全局的配置文件

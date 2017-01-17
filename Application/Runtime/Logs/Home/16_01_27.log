@@ -1,0 +1,3 @@
+[ 2016-01-27T19:57:08+08:00 ] 127.0.0.1 /index.php/Home/Index/contact
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xiyou.xy_contact' doesn't exist
+

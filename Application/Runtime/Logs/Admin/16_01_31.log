@@ -1,0 +1,57 @@
+[ 2016-01-31T14:43:32+08:00 ] 127.0.0.1 /index.php/Admin/Demo/aupload
+ERR: 非法操作:aupload
+
+[ 2016-01-31T15:01:28+08:00 ] 127.0.0.1 /index.php/Admin/Demo/aupload
+ERR: 非法操作:aupload
+
+[ 2016-01-31T15:02:25+08:00 ] 127.0.0.1 /index.php/Admin/Main/upload
+ERR: 非法操作:upload
+
+[ 2016-01-31T20:05:14+08:00 ] 127.0.0.1 /index.php/Admin/Demo/searchDemo?searchname=%E6%A1%88%E4%BE%8B
+ERR: 模板不存在:../Application/Admin/View/Demo/searchDemo.html
+
+[ 2016-01-31T20:15:05+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+
+[ 2016-01-31T20:16:41+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'xy_demo'
+
+[ 2016-01-31T20:16:57+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'xy_demo'
+
+[ 2016-01-31T20:17:46+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'xy_demo'
+
+[ 2016-01-31T20:17:49+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'xy_demo'
+
+[ 2016-01-31T20:17:50+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'xy_demo'
+
+[ 2016-01-31T20:20:28+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+
+[ 2016-01-31T20:28:48+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+
+[ 2016-01-31T20:34:33+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0.','.5' at line 1
+
+[ 2016-01-31T20:41:28+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst?&page=1
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+
+[ 2016-01-31T20:49:15+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst?&page=3
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-3' at line 1
+
+[ 2016-01-31T20:59:24+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst?&page=1
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'xy_demo.id' in 'order clause'
+
+[ 2016-01-31T21:04:27+08:00 ] 127.0.0.1 /index.php/Admin/Demo/demoLst?&page=1
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-8' at line 1
+
+[ 2016-01-31T21:31:55+08:00 ] 127.0.0.1 /index.php/Admin/Demo/edit?id=10
+ERR: 模板不存在:../Application/Admin/View/Demo/edit.html
+
+[ 2016-01-31T21:33:19+08:00 ] 127.0.0.1 /index.php/Admin/Demo/edit?id=10
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'state' in 'where clause'
+

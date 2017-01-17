@@ -1,0 +1,12 @@
+[ 2016-02-12T21:42:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/Sign
+ERR: 模板不存在:../Application/Admin/View/Login/Sign.html
+
+[ 2016-02-12T22:39:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/authCode
+ERR: 非法操作:authCode
+
+[ 2016-02-12T22:57:02+08:00 ] 127.0.0.1 /index.php/Admin/Main/index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'studentweb.sw_contact' doesn't exist
+
+[ 2016-02-12T22:57:13+08:00 ] 127.0.0.1 /index.php/Admin/Main/index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'studentweb.sw_contact' doesn't exist
+

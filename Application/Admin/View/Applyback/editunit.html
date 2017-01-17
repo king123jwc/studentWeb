@@ -1,0 +1,130 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__CONTROLLER__/newApply"> &nbsp;申请回复</a><span>|</span><a href="__SELF__" class="current"> 申请处理</a> </div>
+        <h1>申请 处理</h1>
+    </div>
+    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span4 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: left;
+        }
+        .mycolor{
+            background-color: #D9EDF7;
+        }
+    </style>
+    <!--个人资料-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 460px;">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th style="text-align: left;">
+                        <span class="icon"> <i class='icon-pencil'></i> </span>
+                        <span>申请处理</span>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="width:20%;">申请人学号:</td>
+                        <td>{$data[0]['num']}</td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">申请人昵称:</td>
+                        <td>{$data[0]['username']}</td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">申请人照片:</td>
+                        <td><img src="__PUBLIC__/{$data[0]['peoplethumb']}"/></td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">申请人联系方式:</td>
+                        <td>{$data[0]['contactway']}</td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">申请建立的社团:</td>
+                        <td>{$data[0]['unitname']}</td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">社团描述:</td>
+                        <td>{$data[0]['unitinfo']}</td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">申请策划:</td>
+                        <td><a href="__PUBLIC__/{$data[0]['cehua']}">{$data[0]['cehuaname']}</a></td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">申请&nbsp;&nbsp;状态:</td>
+                        <td><?php
+                                if($data[0]['level']==0){
+                                    echo "<span><i class='icon-eye-close'></i> 申请未处理</span>";
+                                }elseif($data[0]['level']==-1){
+                                    echo "<span><i class='icon-remove'></i> 申请未通过</span>";
+                                }elseif($data[0]['level']==1){
+                                    echo "<span><i class='icon-ok'></i> 申请已通过</span>";
+                                }
+                            ?></td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">申请&nbsp;&nbsp;时间:</td>
+                        <td>{$data[0]['createtime']}</td>
+                    </tr>
+                    <form method="post" action="__SELF__">
+                    <tr>
+                        <td style="width:20%;">教师&nbsp;&nbsp;评语:</td>
+                        <td><textarea rows="6" name="teachersay" placeholder="教师评语">{$data[0]['teachersay']}</textarea></td>
+                    </tr>
+                    
+                    <tr>
+                    <input type="hidden" name="level" id="level" value="0"></input><input type="hidden" name="id" value="{$data[0]['id']}"></input>
+                        <td colspan="2">
+                            <?php
+                                if($data[0]['level']==0){
+                                    echo '<button type="submit" onclick="return c1()" class="btn btn-danger">同意&nbsp;&nbsp;申请</button>&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" onclick="return c2()" class="btn btn-warning">不同意&nbsp;&nbsp;申请</button>&nbsp;&nbsp;&nbsp;&nbsp;';
+                                }
+                            ?>
+                    </form>&nbsp;&nbsp;&nbsp;&nbsp;<a href="__CONTROLLER__/newApply"><button class="btn btn-info">返&nbsp;&nbsp;回</button></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;"></td>
+                        <td></td>
+                    </tr><tr>
+                        <td style="width:20%;"></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/jS/jq.js"></script>
+<script type="text/javascript">
+    function c1(){
+        $('#level').val('1');
+        return true;
+    }
+    function c2(){
+        $('#level').val('-1');
+        return true;
+    }
+</script>
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>

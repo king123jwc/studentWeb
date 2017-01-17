@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="__PUBLIC__/css/AdminMain/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/AdminMain/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/AdminMain/matrix-style.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/AdminMain/matrix-media.css">
+    <link href="__PUBLIC__/css/AdminMain/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+    <!--Header-part-->
+    <div id="header">
+        <h1><a href="#">学生组织网</a></h1>
+    </div>
+    <!--close-Header-part-->
+
+    <!--top-Header-menu-->
+    <div id="user-nav" class="navbar ">
+
+        <!-- <ul class="nav" style="width: auto; margin: 0px;"> -->
+        <ul class="nav">
+        
+            <li class="dropdown" id="profile-messages">
+                <a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle">
+                    <i class="icon icon-user"></i>&nbsp;
+                    <span class="text">欢迎你，<?php
+                    if($_SESSION['username']!==''){
+                        echo $_SESSION['username'];
+                        }else{
+                        echo '学号:'.$_SESSION['usernum'];
+                        };
+                    ?></span>&nbsp;
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <!-- <li><a href="__MODULE__/Menu/myAdmin"><i class="icon-user"></i> 个人资料</a></li> -->
+                    <!-- <li class="divider"></li> -->
+                    <li><a href="__MODULE__/Main/layout"><i class="icon-key"></i> 退出系统</a></li>
+                </ul>
+            </li>
+
+            <!--<li class=""><a title="" href="#"><i class="icon icon-cog"></i> <span class="text">&nbsp;设置</span></a></li>-->
+            <li class=""><a title="layout" href="__APP__"><i class="icon-picture"></i> <span class="text">&nbsp;首页</span></a></li>
+            <li class=""><a title="layout" href="__MODULE__/Main/layout" onclick="return confirm('您确定要退出吗?');"><i class="icon icon-share-alt"></i> <span class="text">&nbsp;退出系统</span></a></li>
+        </ul>
+    </div>
+    <!--close-top-Header-menu-->
+    
+    <!--start-top-serch-->
+     <!--<div id="search">-->
+        <!--<form class="form-horizontal" role="form" action="__MODULE__/Menu/search" method="get">-->
+           <!--<input type="text" class="form-control" name="searchname" placeholder="搜索联系人名称">-->
+        <!--<button type="submit" class="tip-bottom" data-original-title="Search"><i class="icon-search icon-white"></i></button> -->
+        <!--</form>-->
+    <!--</div>-->
+    <!-- close-top-serch
+
+
+    <!--end-main-container-part-->
+    <!-- <script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script> -->
+    <!-- <script src="__PUBLIC__/js/Mainjs/excanvas.min.js"></script>
+    <script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script>
+    <script src="__PUBLIC__/js/Mainjs/jquery.ui.custom.js"></script>
+    <script src="__PUBLIC__/js/Mainjs/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/Mainjs/jquery.nicescroll.min.js"></script>
+    <script src="__PUBLIC__/js/Mainjs/matrix.js"></script>
+ -->
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,7 @@
+lang语言包
+TPL放置模板
+library资源库
+common核心函数库目录
+conf配置文件 目录
+model 
+conf做配置

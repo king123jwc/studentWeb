@@ -1,0 +1,723 @@
+[ 2016-01-25T14:33:31+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-01-25T14:33:41+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/css
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:33:41+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:33:41+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:47:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:47:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:47:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/css
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:47:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/css
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:47:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:47:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:49:10+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:49:10+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/css
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:49:10+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:49:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:49:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:49:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/css
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:49:16+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/css
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:49:16+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:49:16+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:50:15+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:50:15+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:50:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:50:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:51:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:51:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:52:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:52:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:53:31+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:53:31+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:53:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:53:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:57:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:57:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:57:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:57:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:57:48+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:57:48+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:57:50+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:57:50+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:04+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:04+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:52+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:58:52+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:02+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:02+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:15+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:15+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:30+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:30+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:31+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:31+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T14:59:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:00:08+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:00:08+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:11:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:11:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:12:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:12:14+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:12:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:12:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:14:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/Matrix%20Admin.htm
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:14:22+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/Matrix%20Admin.htm
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:15:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:15:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:15:56+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:15:56+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:15:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:15:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:16:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:16:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:16:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:16:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:18:09+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:18:09+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:21:56+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:21:56+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:29:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:29:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:32:22+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/matrix.login.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T15:32:22+08:00 ] 127.0.0.1 /index.php/Admin/Login/Matrix%20Admin_files/jquery.min.js
+ERR: 非法操作:Matrix Admin_files
+
+[ 2016-01-25T16:35:53+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'itcms.xy_admin' doesn't exist
+
+[ 2016-01-25T16:41:48+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+ERR: 模板不存在:../Application/Admin/View/Login/error.html.html
+
+[ 2016-01-25T17:01:23+08:00 ] 127.0.0.1 /index.php/Admin/Main/Login/login
+ERR: 非法操作:Login
+
+[ 2016-01-25T17:01:51+08:00 ] 127.0.0.1 /index.php/Admin/Main/Login/login
+ERR: 非法操作:Login
+
+[ 2016-01-25T17:04:11+08:00 ] 127.0.0.1 /index.php/Admin/Main/login/login
+ERR: 非法操作:login
+
+[ 2016-01-25T17:04:48+08:00 ] 127.0.0.1 /index.php/Admin/Main/login/login
+ERR: 非法操作:login
+
+[ 2016-01-25T17:04:50+08:00 ] 127.0.0.1 /index.php/Admin/Main/login/login
+ERR: 非法操作:login
+
+[ 2016-01-25T17:04:54+08:00 ] 127.0.0.1 /index.php/Admin/Main/login/login
+ERR: 非法操作:login
+
+[ 2016-01-25T17:05:07+08:00 ] 127.0.0.1 /index.php/Admin/Main/login/login
+ERR: 非法操作:login
+
+[ 2016-01-25T17:06:51+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:07:31+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:07:33+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:07:41+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:07:43+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:08:53+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:08:55+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:09:04+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:09:06+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:15:00+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:15:03+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:15:17+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:15:19+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:15:26+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MOUDLE__/Login/login
+ERR: 非法操作:__MOUDLE__
+
+[ 2016-01-25T17:15:56+08:00 ] 127.0.0.1 /index.php/Admin/Main/Login/login
+ERR: 非法操作:Login
+
+[ 2016-01-25T17:16:03+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:18:26+08:00 ] 127.0.0.1 /index.php/Admin/Main/__MODULE__/Login/login
+ERR: 非法操作:__MODULE__
+
+[ 2016-01-25T17:18:28+08:00 ] 127.0.0.1 /index.php/Admin/Main/Login/login
+ERR: 非法操作:Login
+
+[ 2016-01-25T19:40:47+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: warning D:\xampp\htdocs\demo\tpdemo\Application\Runtime\Cache\Admin\48b3528d6b7fc59839bea6f3dc828237.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-25T19:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.ui.custom.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/bootstrap.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.nicescroll.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/excanvas.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/matrix.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:59:38+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:59:38+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/excanvas.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:59:38+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/bootstrap.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:59:38+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/matrix.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:59:38+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:59:38+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.ui.custom.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T19:59:38+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.nicescroll.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:00:19+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/excanvas.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:00:19+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/bootstrap.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:00:19+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:00:20+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:00:20+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/matrix.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:00:20+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.ui.custom.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:00:20+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.nicescroll.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:00:25+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:00+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/excanvas.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:00+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:00+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/bootstrap.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:00+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.ui.custom.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:00+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.nicescroll.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:00+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:00+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/matrix.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:09+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:12+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:13+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:40+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.ui.custom.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:40+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/bootstrap.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:40+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:40+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/excanvas.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:40+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:40+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/matrix.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:40+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/jquery.nicescroll.min.js
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:44+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:46+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:02:49+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:03:53+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:04:01+08:00 ] 127.0.0.1 /index.php/Admin/Main/grid.html
+ERR: 非法操作:grid
+
+[ 2016-01-25T20:04:02+08:00 ] 127.0.0.1 /index.php/Admin/Main/widgets.html
+ERR: 非法操作:widgets
+
+[ 2016-01-25T20:04:03+08:00 ] 127.0.0.1 /index.php/Admin/Main/tables.html
+ERR: 非法操作:tables
+
+[ 2016-01-25T20:04:03+08:00 ] 127.0.0.1 /index.php/Admin/Main/buttons.html
+ERR: 非法操作:buttons
+
+[ 2016-01-25T20:04:04+08:00 ] 127.0.0.1 /index.php/Admin/Main/widgets.html
+ERR: 非法操作:widgets
+
+[ 2016-01-25T20:04:05+08:00 ] 127.0.0.1 /index.php/Admin/Main/form-validation.html
+ERR: 非法操作:form-validation
+
+[ 2016-01-25T20:04:05+08:00 ] 127.0.0.1 /index.php/Admin/Main/form-wizard.html
+ERR: 非法操作:form-wizard
+
+[ 2016-01-25T20:04:06+08:00 ] 127.0.0.1 /index.php/Admin/Main/form-common.html
+ERR: 非法操作:form-common
+
+[ 2016-01-25T20:04:07+08:00 ] 127.0.0.1 /index.php/Admin/Main/error404.html
+ERR: 非法操作:error404
+
+[ 2016-01-25T20:04:08+08:00 ] 127.0.0.1 /index.php/Admin/Main/error405.html
+ERR: 非法操作:error405
+
+[ 2016-01-25T20:04:08+08:00 ] 127.0.0.1 /index.php/Admin/Main/error404.html
+ERR: 非法操作:error404
+
+[ 2016-01-25T20:05:09+08:00 ] 127.0.0.1 /index.php/Admin/Main/index2.html
+ERR: 非法操作:index2
+
+[ 2016-01-25T20:05:11+08:00 ] 127.0.0.1 /index.php/Admin/Main/index2.html
+ERR: 非法操作:index2
+
+[ 2016-01-25T20:05:40+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:05:47+08:00 ] 127.0.0.1 /index.php/Admin/Main/form-common.html
+ERR: 非法操作:form-common
+
+[ 2016-01-25T20:05:48+08:00 ] 127.0.0.1 /index.php/Admin/Main/form-wizard.html
+ERR: 非法操作:form-wizard
+
+[ 2016-01-25T20:05:49+08:00 ] 127.0.0.1 /index.php/Admin/Main/charts.html
+ERR: 非法操作:charts
+
+[ 2016-01-25T20:05:54+08:00 ] 127.0.0.1 /index.php/Admin/Main/charts.html
+ERR: 非法操作:charts
+
+[ 2016-01-25T20:07:10+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:07:29+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:07:31+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:07:34+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:07:46+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:07:56+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:09:21+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:09:46+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:09:50+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:10:38+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:11:02+08:00 ] 127.0.0.1 /index.php/Admin/Main/buttons.html
+ERR: 非法操作:buttons
+
+[ 2016-01-25T20:11:03+08:00 ] 127.0.0.1 /index.php/Admin/Main/grid.html
+ERR: 非法操作:grid
+
+[ 2016-01-25T20:11:03+08:00 ] 127.0.0.1 /index.php/Admin/Main/widgets.html
+ERR: 非法操作:widgets
+
+[ 2016-01-25T20:11:48+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:11:51+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:11:53+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:12:04+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:15:37+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:15:41+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:15:54+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:16:46+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:16:49+08:00 ] 127.0.0.1 /index.php/Admin/Main/login.html
+ERR: 非法操作:login
+
+[ 2016-01-25T20:16:50+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:17:07+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:17:49+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:18:03+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2016-01-25T20:18:07+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:18:32+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:18:57+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:19:17+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:20:44+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:20:46+08:00 ] 127.0.0.1 /index.php/Admin/Main/Login/login
+ERR: 非法操作:Login
+
+[ 2016-01-25T20:20:50+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:21:28+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:21:40+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:21:43+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T20:29:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/signin.css
+ERR: 非法操作:signin.css
+
+[ 2016-01-25T20:31:21+08:00 ] 127.0.0.1 /index.php/Admin/Login/signin.css
+ERR: 非法操作:signin.css
+
+[ 2016-01-25T20:31:52+08:00 ] 127.0.0.1 /index.php/Admin/Login/signin.css
+ERR: 非法操作:signin.css
+
+[ 2016-01-25T20:32:36+08:00 ] 127.0.0.1 /index.php/Admin/Login/signin.css
+ERR: 非法操作:signin.css
+
+[ 2016-01-25T21:03:10+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+
+[ 2016-01-25T21:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Main/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF_files/index2.htm
+ERR: 非法操作:后台管理模板_files
+

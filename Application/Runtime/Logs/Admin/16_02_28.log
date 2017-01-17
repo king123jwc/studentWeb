@@ -1,0 +1,117 @@
+[ 2016-02-28T09:22:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/
+ERR: 无法加载控制器:Login
+
+[ 2016-02-28T09:25:08+08:00 ] 127.0.0.1 /index.php/Admin/Student/ggg
+ERR: 非法操作:ggg
+
+[ 2016-02-28T09:27:27+08:00 ] 127.0.0.1 /index.php/Admin/Unit/communityRevision
+ERR: 无法加载控制器:Unit
+
+[ 2016-02-28T09:27:38+08:00 ] 127.0.0.1 /index.php/Admin/Student/ggg
+ERR: 非法操作:ggg
+
+[ 2016-02-28T09:33:11+08:00 ] 127.0.0.1 /index.php/Admin/Unit/communityRevision
+ERR: 非法操作:communityRevision
+
+[ 2016-02-28T09:37:25+08:00 ] 127.0.0.1 /index.php/Admin/Unit/communityRevision
+ERR: 模板不存在:../Application/Admin/View/Unit/communityRevision.html
+
+[ 2016-02-28T09:46:07+08:00 ] 127.0.0.1 /index.php/Admin/Unit/usedActivity
+ERR: 模板不存在:../Application/Admin/View/Unit/usedActivity.html
+
+[ 2016-02-28T10:01:53+08:00 ] 127.0.0.1 /index.php/Admin/Apply/applyInfo
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'
+
+[ 2016-02-28T10:02:49+08:00 ] 127.0.0.1 /index.php/Admin/Apply/applyInfo
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'
+
+[ 2016-02-28T10:27:31+08:00 ] 127.0.0.1 /index.php/Admin/Unit/usedActivity
+ERR: 模板不存在:../Application/Admin/View/Unit/usedActivity.html
+
+[ 2016-02-28T10:47:30+08:00 ] 127.0.0.1 /index.php/Admin/Student/ggg
+ERR: 非法操作:ggg
+
+[ 2016-02-28T13:10:51+08:00 ] 127.0.0.1 /index.php/Admin/Del/deleteunit
+ERR: 无法加载控制器:Del
+
+[ 2016-02-28T13:13:55+08:00 ] 127.0.0.1 /index.php/Admin/Del/deleteinfo
+ERR: 非法操作:deleteinfo
+
+[ 2016-02-28T13:18:37+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteinfo
+ERR: 非法操作:deleteinfo
+
+[ 2016-02-28T13:19:59+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteinfo
+ERR: 模板不存在:../Application/Admin/View/Delall/deleteinfo.html
+
+[ 2016-02-28T13:20:05+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteunit
+ERR: 模板不存在:../Application/Admin/View/Delall/deleteunit.html
+
+[ 2016-02-28T13:22:36+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteinfo
+ERR: 模板不存在:../Application/Admin/View/Delall/deleteinfo.html
+
+[ 2016-02-28T13:39:55+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteinfo
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+[ 2016-02-28T14:02:40+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteinfo
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1327 Undeclared variable: $pageNow
+
+[ 2016-02-28T14:03:25+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteinfo
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1327 Undeclared variable: $pageNow
+
+[ 2016-02-28T14:04:28+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteinfo
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+[ 2016-02-28T14:24:55+08:00 ] 127.0.0.1 /index.php/Admin/Delall/del?id=17
+ERR: 非法操作:del
+
+[ 2016-02-28T14:26:18+08:00 ] 127.0.0.1 /index.php/Admin/Delall/__CONTROLLER__/deleteinfo
+ERR: 非法操作:__CONTROLLER__
+
+[ 2016-02-28T14:28:34+08:00 ] 127.0.0.1 /index.php/Admin/Delall/__CONTROLLER__/deleteinfo
+ERR: 非法操作:__CONTROLLER__
+
+[ 2016-02-28T14:28:37+08:00 ] 127.0.0.1 /index.php/Admin/Delall/__CONTROLLER__/deleteinfo
+ERR: 非法操作:__CONTROLLER__
+
+[ 2016-02-28T14:28:46+08:00 ] 127.0.0.1 /index.php/Admin/Delall/Delall/deleteinfo
+ERR: 非法操作:Delall
+
+[ 2016-02-28T14:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Delall/Delall/deleteinfo
+ERR: 非法操作:Delall
+
+[ 2016-02-28T14:31:52+08:00 ] 127.0.0.1 /index.php/Admin/Delall/bdel
+ERR: 非法操作:bdel
+
+[ 2016-02-28T14:32:27+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteinfo?&page=4
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+
+[ 2016-02-28T14:37:58+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteunit
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+
+[ 2016-02-28T14:38:07+08:00 ] 127.0.0.1 /index.php/Admin/Delall/deleteunit
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+
+[ 2016-02-28T14:57:53+08:00 ] 127.0.0.1 /index.php/Admin/Notice/handleNotice
+ERR: 模板不存在:../Application/Admin/View/Notice/handleNotice.html
+
+[ 2016-02-28T15:00:10+08:00 ] 127.0.0.1 /index.php/Admin/Activity/activityData
+ERR: 无法加载控制器:Activity
+
+[ 2016-02-28T15:30:22+08:00 ] 127.0.0.1 /index.php/Admin/Applyback/newApply
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+
+[ 2016-02-28T16:14:32+08:00 ] 127.0.0.1 /index.php/Admin/Applyback/newApply?&page=2
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sw_unit.answerunitid' in 'where clause'
+
+[ 2016-02-28T16:42:12+08:00 ] 127.0.0.1 /index.php/Admin/Applyback/newApply?&page=2
+ERR: Think\Controller:fenye方法不存在！
+
+[ 2016-02-28T16:42:47+08:00 ] 127.0.0.1 /index.php/Admin/Applyback/newApply?&page=2
+ERR: Think\Controller:fenye方法不存在！
+
+[ 2016-02-28T16:42:50+08:00 ] 127.0.0.1 /index.php/Admin/Applyback/newApply?&page=2
+ERR: Think\Controller:fenye方法不存在！
+
+[ 2016-02-28T16:59:52+08:00 ] 127.0.0.1 /index.php/Admin/Applyback/newApply
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.unitname,a.num,a.username,a.contactway,b.* from sw_apply as b left join sw_adm' at line 1
+

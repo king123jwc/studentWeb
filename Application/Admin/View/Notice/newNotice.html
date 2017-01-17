@@ -1,0 +1,123 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__SELF__"> 发布学校通知</a><span>|</span><a href="__SELF__" class="current"> 发布通知</a> </div>
+        <h1>教师 发布学校通知</h1>
+    </div>
+    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span2 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: left;
+        }
+    </style>
+    <!--个人资料-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 400px;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped" style="border: 0">
+                    <thead>
+                        <th colspan="2">
+                            <span class="icon"> <i class="icon-pencil"></i> </span>
+                            <span>发布学校通知</span>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <form class="form-horizontal" role="form" action="__SELF__" method="post" ENCTYPE="multipart/form-data">
+                        <tr>
+                            <td style="width: 15%;">发布单位:<input type="hidden" name="unitid" value="{$unit['id']}"></input></td>
+                            <td>{$unit['unitname']}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">新闻标题:</td>
+                            <td><input class="form-control col-md-9" type="text" name="title" id="sc1" value="" placeholder="内容标题"></input>
+                            <span2 id='s1'></span2></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">新闻内容:</td>
+                            <td><textarea class="form-control col-md-9" name="news" rows="6" id="sc2" placeholder="新闻内容"></textarea><span2 id='s2'></span2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;">新闻图片:</td>
+                            <td><input class="form-control col-md-9" type="file" id="sc3" name="newpic"></input>
+                            <span2 id='s3'></span2>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td style="width: 15%;">缩略图尺寸:</td>
+                            <td>
+                                <select class="form-control" name="thumbsize" style="width: 20%;">
+                                    <option value="50">--默认50X50--</option>
+                                    <option value="100">100X100</option>
+                                    <option value="150">150X150</option>
+                                    <option value="200">200X200</option>
+                                </select>
+                            </td>
+                        </tr>                  
+                        <tr>
+                        <input type="hidden" id="status" name="status" value=""></input>
+                            <td colspan="2"><button type="submit" class="btn btn-warning"  id="submit1
+                           " onclick="return c1()">即刻  发布</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" onclick="return c2()" class="btn btn-info">不发布,存入草稿箱</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="reset" class="btn btn-success">重  写</button>
+                            <br>
+                            <br>
+                           </td>
+                        </tr>
+                            </form>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</div>
+<!--end-main-container-part-->
+<script src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+<script src="__PUBLIC__/ueditor/ueditor.all.min.js"></script>
+<script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script>
+<script>
+    function c1(){
+        $('#status').val('1');
+        if ($('#sc1').val()=='') {
+            $('#s1').html('新闻标题不能为空');
+            return false;
+        }else if($('#sc2').val()==''){
+            $('#s2').html('新闻内容不能为空');
+            return false;
+        }else if($('#sc3').val()==''){
+            $('#s3').html('新闻图片不能为空');
+            return false;
+        }
+        return true;
+    }
+    function c2(){
+        $('#status').val('0');
+        if ($('#sc1').val()=='') {
+            $('#s1').html('新闻标题不能为空');
+            return false;
+        }else if($('#sc2').val()==''){
+            $('#s2').html('新闻内容不能为空');
+            return false;
+        }else if($('#sc3').val()==''){
+            $('#s3').html('新闻图片不能为空');
+            return false;
+        }
+        return true;
+    }
+
+</script>
+
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>

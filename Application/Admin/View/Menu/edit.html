@@ -1,0 +1,78 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__SELF__" class="current"> 留言处理</a> </div>
+        <h1>后台 留言处理</h1>
+    </div>
+    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span4 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: left;
+        }
+        .mycolor{
+            background-color: #D9EDF7;
+        }
+    </style>
+    <!--个人资料-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 460px;">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th style="text-align: left;">
+                        <span class="icon"> <i class='icon-file'></i> </span>
+                        <span>留言处理</span>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="width:20%;">联系人名称:</td>
+                        <td>{$data['contactname']}</td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">联系方式:</td>
+                        <td>{$data['contactway']}</td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">联系项目类型:</td>
+                        <td>{$data['subject']}</td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">联系项目简介:</td>
+                        <td>{$data['message']}</td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">留言时间:</td>
+                        <td>{$data['addtime']}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/jS/jq.js"></script>
+<script type="text/javascript">
+
+    $("input[name=selall]").click(function(){
+        $('.delids').attr("checked",$("input[name=selall]").attr('checked'));
+    })
+</script>
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>

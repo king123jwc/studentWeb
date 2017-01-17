@@ -1,0 +1,146 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__CONTROLLER__/handleNotice"> &nbsp;发布学校新闻</a><span>|</span><a href="__SELF__" class="current"> 通知处理</a> </div>
+        <h1>通知 处理</h1>
+    </div>
+    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span4 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: left;
+        }
+        .mycolor{
+            background-color: #D9EDF7;
+        }
+    </style>
+    <!--个人资料-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 460px;">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th style="text-align: left;" colspan="2">
+                        <span class="icon"> <i class='icon-pencil'></i> </span>
+                        <span>通知处理</span>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+
+                    <form class="form-horizontal" role="form" action="__SELF__" method="post" ENCTYPE="multipart/form-data">
+                    <input type='hidden' name="id" value="{$data[0]['id']}"></input>
+                    <tr>
+                        <td style="width:20%;">发布通知单位:</td>
+                        <td>{$data[0]['unitname']}</td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">通知标题:</td>
+                        <td><input type="text" <?php 
+                            if($data[0]['status']==1){
+                                echo 'disabled';
+                            }
+                        ?> name="title" placeholder="通知标题" value="{$data[0]['title']}"></input></td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">通知内容:</td>
+                        <td><textarea <?php 
+                            if($data[0]['status']==1){
+                                echo 'disabled';
+                            }
+                        ?> rows="6" name="news">{$data[0]['news']}</textarea></td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">通知图片:</td>
+                        <td><img src="__PUBLIC__/{$data[0]['newpic']}"/></td>
+                    </tr>
+                    <?php if($data[0]['status']==0){
+                    $str='<tr>
+                            <td style="width: 15%;">重新上传图片:</td>
+                            <td><input class="form-control col-md-9" type="file" id="sc3" name="newpic"></input>
+                            <span2 id="s3"></span2>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td style="width: 15%;">缩略图尺寸:</td>
+                            <td>
+                                <select class="form-control" name="thumbsize" style="width: 20%;">
+                                    <option value="50">--默认50X50--</option>
+                                    <option value="100">100X100</option>
+                                    <option value="150">150X150</option>
+                                    <option value="200">200X200</option>
+                                </select>
+                            </td>
+                        </tr>';
+                        echo $str;
+                    }?>
+                    <tr>
+                        <td style="width:20%;">通知建立时间:</td>
+                        <td>{$data[0]['createtime']}</td>
+                    </tr>
+                    
+                    <tr>
+                        <td style="width:20%;">通知&nbsp;&nbsp;状态:</td>
+                        <td><?php
+                                if($data[0]['status']==0){
+                                    echo "<span><i class='icon-eye-close'></i> 通知未发布</span>";
+                                }elseif($data[0]['status']==1){
+                                    echo "<span><i class='icon-ok'></i> 通知已发布</span>";
+                                }
+                            ?></td>
+                    </tr>
+                    <tr>
+                        <td style="width:20%;">发部&nbsp;&nbsp;时间:</td>
+                        <td>{$data[0]['createtime']}</td>
+                    </tr>
+                    
+                    <tr>
+                    <input type="hidden" name="status" id="status" value="0"></input><input type="hidden" name="id" value="{$data[0]['id']}"></input>
+                        <td colspan="2">
+                            <?php
+                                if($data[0]['status']==0){
+                                    echo '<button type="submit" onclick="return c1()" class="btn btn-danger">发布&nbsp;&nbsp;通知</button>&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" onclick="return c2()" class="btn btn-warning">存入&nbsp;&nbsp;草稿箱</button>&nbsp;&nbsp;&nbsp;&nbsp;';
+                                }
+                            ?>&nbsp;&nbsp;&nbsp;&nbsp;</form><a href="__CONTROLLER__/drafts" ><button class="btn btn-info">返回&nbsp;&nbsp;草稿箱</button></a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="__CONTROLLER__/del?id={$data[0]['id']}" ><button class="btn btn-success">删除&nbsp;&nbsp;通知</button></a>
+                    </tr>
+                    
+                    <tr>
+                        <td style="width:20%;"></td>
+                        <td></td>
+                    </tr><tr>
+                        <td style="width:20%;"></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/jS/jq.js"></script>
+<script type="text/javascript">
+    function c1(){
+        $('#status').val('1');
+        return true;
+    }
+    function c2(){
+        $('#status').val('0');
+        return true;
+    }
+</script>
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>

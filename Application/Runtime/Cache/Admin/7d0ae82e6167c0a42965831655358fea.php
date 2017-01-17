@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit(); echo "<pre>"; print_r($_SESSION); echo "</pre>"; ?>

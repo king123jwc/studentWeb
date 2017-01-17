@@ -1,0 +1,5 @@
+behavior 行为目录
+org 功能类目录 
+think 框架最核心文件目录 Verify.class.php 生成验证码的功能类 mvc类
+vendor 第三方成品功能类包目录 例如smarty
+ 

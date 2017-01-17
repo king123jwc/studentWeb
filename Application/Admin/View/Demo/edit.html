@@ -1,0 +1,166 @@
+<include file="Public/header"/>
+<include file="Public/left"/>
+
+<!--个人资料-->
+<!DOCTYPE html>
+<!-- saved from url=(0046)/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后台管理平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--主体部分-->
+<div id="content">
+    <!--breadcrumbs-->
+    <div id="content-header">
+        <div id="breadcrumb"> <a href="__MODULE__/Main/index.html" class="tip-bottom" data-original-title="返回后台首页"><i class="icon-home"></i> 后台首页</a><span>|</span><a href="__CONTROLLER__/demoLst"> &nbsp;成功案例</a><span>|</span><a href="__SELF__" class="current"> 处理案例</a> </div>
+        <h1>处理 案例</h1>
+    </div>
+    <!--End-breadcrumbs-->
+    <style type="text/css">
+        span2 {font-size: 18px; display : inline}
+        span3 {font-size: 18px;color: #666666; display : inline}
+        span4 {font-size: 15px;color: red; display : inline}
+        .table th, .table td {
+            text-align: left;
+        }
+        .table td textarea{
+            width: 80%;
+            height: 100%;
+        }
+        #checkbox{
+            margin-top: -7px;
+        }
+    </style>
+    <!--新增管理员-->
+    <div class="container-fluid" style="overflow-y: auto; overflow-x: hidden; height: 460px;">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <th colspan="2">
+                    <span class="icon"> <i class="icon-pencil"></i> </span>
+                    <span>处理成功案例</span>
+                </th>
+                </thead>
+                <tbody>
+                        <form class="form-horizontal" role="form" enctype="multipart/form-data" action="__CONTROLLER__/edit" method="post">
+                        <tr>
+                            <td style="text-align: center;width: 15%;">
+                                <span3>案例名称:&nbsp;&nbsp;</span3>
+                            </td><td>
+                            <input type="hidden" name="id" value="{$content[0]['id']}">
+                            <input type="text" class="form-control col-md-9" id="exampleInputext1" name="demoname" onchange="return nname()" value="{$content[0]['demoname']}">
+                                <span4 id="s40"></span4>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td style="width: 15%;text-align: center;">
+                                    <span3>查看原图:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                                </td><td>
+                                <span4 id="s4"></span4>
+                                <span2><a href="__PUBLIC__/{$content[0]['pic']}">查看原图</a></span2>&nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                            </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>修改效果图:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                            </td><td>
+                                <input type="file" name="pic" class="form-control col-md-9" id="exampleInputext2" value="{$content[0]['pic']}" placeholder="修改效果图" >
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>缩略图:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                            </td><td>
+                                <img src="__PUBLIC__/{$content[0]['thumb']}"/>
+                            </td>
+                         </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>重新制作缩略图:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                            </td><td>
+                            <select class="form-control" name="thumbsize">
+                                <option value="0">--重选缩略图尺寸--</option>
+                                <option value="250">250X250</option>
+                                <option value="350">350X350</option>
+                                <option value="500">500X500</option>
+                                <option value="500">650X520</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>案例简介:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                            </td><td>
+                            <textarea type="text" class="form-control col-md-9" name="demoinfo" row="6" id="exampleInputext3" placeholder="案例简介" >{$content[0]['demoinfo']}</textarea>
+                            <span4 id="span4"></span4>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td style="width: 15%;text-align: center;">
+                                    <span3>当前案例分类:&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                                </td><td>
+                                <input type="radio" class="form-control col-md-9" name="classifyId[]" id="checkbox" checked value="{$content[0]['classifyid']}"/><span3>&nbsp;{$content[0]['classifyname']}&nbsp;&nbsp;&nbsp;&nbsp;</span3>
+                            </td>
+                            </tr>
+                        <tr>
+                            <td style="width: 15%;text-align: center;">
+                                <span3>选择案例分类{$content['classifyid']}:&nbsp;&nbsp;</span3>
+                            </td>
+                            <td>
+
+                                <?php foreach($data as $k=>$v):?>
+
+                                <input type="radio" class="form-control col-md-9" name="classifyId[]" id="checkbox" value="{$v['id']}"/><span3>&nbsp;{$v['classifyname']}&nbsp;&nbsp;|&nbsp;&nbsp;</span3>
+                                <?php endforeach;?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="submit" class="btn btn-warning"  onclick=" return check()" id="submit1
+                           ">处&nbsp;&nbsp;理</button></td>
+                        </tr>
+                        <tr><td></td></tr>
+                        <tr><td></td></tr>
+                        </form>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--end-main-container-part-->
+<script src="__PUBLIC__/js/Mainjs/jquery.min.js"></script>
+<script>
+    function nname(){
+        var nn=$('#exampleInputext1').val();
+        if(nn==''){
+            $('#s40').text('案例名称不能为空');
+            return false;
+        }else{
+            $('#s40').text('');
+            return true;
+        }
+    }
+    function check(){
+        var i3=$('#exampleInputext3').val();
+        if(i3==''){
+            $('#span4').text('案例简介不能为空');
+            return false;
+        }else{
+            if (!newpd()){
+                return false;
+            }else{
+                if(!nname()){
+                    return false;
+                }else{
+                    return true;
+                }
+            }
+        }
+    }
+</script>
+
+<ul class="typeahead dropdown-menu"></ul>
+</body>
+</html>
